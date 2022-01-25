@@ -1,3 +1,13 @@
+# The aim of this app is not to completely clone all the features of amazon.com but to replicate the major features of the site 
+which include but not limited to :
+Basket functionality
+Payment functionality (stripe was used in this app)
+Aunthentication
+Cloud Storage
+...
+and a few of personal features
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
