@@ -1,4 +1,4 @@
-# The aim of this app is not to completely clone all the features of amazon.com but to replicate the major features of the site 
+# The aim of this app is not to completely clone all the features of [amazon.com](https://amazon.com) but to replicate the major features of the site 
 which include but not limited to :
 Basket functionality
 Payment functionality (stripe was used in this app)
