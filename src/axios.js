@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const instance = axios.create({
     //the API cloud function URL
-    baseURL: "http://localhost:5000" 
+    baseURL: "https://amazon-clon-server.herokuapp.com" 
 })
 
 export default instance;

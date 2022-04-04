@@ -25,9 +25,10 @@ const Order = ({ order }) => {
           <h3 className="order__total">Order Total: {value}</h3>
         )}
         decimalScale={2}
+        decimalSeparator="."
         value={orders.amount.integerValue}
         displayType={"text"}
-        thousandSeperator={true}
+        thousandSeparator={true}
         prefix={"$"}
       />
     </div>

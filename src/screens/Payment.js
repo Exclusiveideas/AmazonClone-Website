@@ -270,7 +270,7 @@ const SimpleDialog = (props) => {
     <Dialog onClose={handleClose} open={open}>
       <DialogTitle>Payment Functionality</DialogTitle>
       <Typography variant="subtitle3" component="div" className="payment__card">
-        use 42424242... consecutively tp fill the payment card section
+        use 42424242... consecutively to fill the payment card section
       </Typography>
     </Dialog>
   );
