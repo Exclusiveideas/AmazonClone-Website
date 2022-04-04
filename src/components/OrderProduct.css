@@ -1,0 +1,38 @@
+.orderProduct {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #4e4e4e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px  #7c7c7c;
+}
+
+.orderProduct__image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.orderProduct__info {
+    padding-left: 20px;
+}
+
+.orderProduct__rating {
+    display: flex;
+}
+
+.orderProduct__title {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.orderProduct_rating_star {
+    color:#f0c14b;
+}
+
+@media screen and (max-width: 464px) {
+    .orderProduct {
+        flex-direction: column;
+    }
+}

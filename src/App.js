@@ -1,12 +1,12 @@
 import "./App.css";
 import { useEffect } from "react";
-import Checkout from "./Checkout";
-import Header from "./Header";
-import Home from "./Home";
-import Payment from "./Payment";
-import Orders from "./Orders";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./Login.js";
+import Checkout from "./screens/Checkout";
+import Header from "./components/Header";
+import Home from "./screens/Home";
+import Payment from "./screens/Payment";
+import Orders from "./screens/Orders";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from "./screens/Login.js";
 import { useStateValue } from "./StateProvider";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
@@ -37,7 +37,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <Router>
       <div className="App">
         <Routes>
           <Route
@@ -88,7 +88,7 @@ function App() {
           />
         </Routes>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 

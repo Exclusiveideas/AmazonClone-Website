@@ -1,0 +1,35 @@
+.orders {
+    padding: 20px 80px;
+}
+
+.orders > h1 {
+    margin: 30px 0;
+}
+
+.orders__link {
+    text-decoration: none;
+}
+
+.skeletonCont {
+    max-width: 90vw;
+    display: flex;
+    height: 120px;
+}
+
+.skeletonCont__image {
+    width: 100%;
+    flex: 1;
+    margin-right: 15px;
+    height: 120px
+}
+
+@media screen and (max-width: 464px) {
+    .skeletonCont {
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .skeletonCont__image {
+        height: 150px;
+    }
+}
